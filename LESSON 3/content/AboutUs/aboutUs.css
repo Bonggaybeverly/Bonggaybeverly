@@ -1,0 +1,78 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background: url('logos/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background: rgba(25, 0, 255, 0.856);
+  color: #fff;
+  padding:0;
+  margin: 0;
+  text-align:center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center; /* header navi sa right  */
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  flex-direction: flex-end;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  color: rgb(2, 2, 75);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  max-width: 800px;
+  height: auto;
+  border-radius: 5px;
+  margin: auto;
+  background: rgba(209, 236, 233, 0.9); /* White background with transparency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color:rgba(8, 3, 56, 0.856);
+}
+
+/* Footer */
+footer {
+  /* background-color:rgba(25, 0, 255, 0.856); */
+  background-color: rgba(18, 2, 165, 0.856);;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  height: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 13px;
+}

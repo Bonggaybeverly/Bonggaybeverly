@@ -1,0 +1,121 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('logos/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #050505;
+}
+
+
+header {
+  background-color:rgba(26, 12, 150, 0.856);
+  color: rgb(255, 248, 248);
+  padding: 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header .nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+  color: #f1ecec;
+}
+
+/* Course Section */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+span img{
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.course {
+  background: rgba(130, 255, 228, 0.9); /* White background with transparency */
+  font-family:'Courier New', Courier, monospace;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(255, 242, 242, 0.1);
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.course h2 {  
+  text-align: center;
+  margin-top: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #01064b;
+}
+
+.course p {
+  text-align: center;
+  font-size: 17px;
+  font-weight:bold;
+  color: #1347f1;
+}
+
+.course ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.course ul li {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #070249f6;
+}
+
+.course:hover {
+  transform: translateY(-20px);
+}
+
+/* Footer */
+footer {
+  /* background-color:rgba(25, 0, 255, 0.856); */
+  background-color: rgba(18, 2, 165, 0.856);;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  height: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 13px;
+}

@@ -1,0 +1,55 @@
+
+.container{
+  margin-top: 100px;
+}
+.navigation {
+  color: white;
+  padding: 10px 20px;  
+  position: fixed;      
+  top: 0;               
+  right: 0;             
+  width: auto;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start; /* header navi sa left  */
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header .nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+  color:rgba(25, 0, 255, 0.856);
+}
+
+.hgbHeader{
+  font-size: 20px;
+}
+span img{
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
